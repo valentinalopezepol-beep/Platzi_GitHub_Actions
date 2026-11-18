@@ -22,11 +22,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          
-      - name: Ejecutar programa
-        run: python .github/script/main.py
-      
 
-      #executing program
-      - name: Ejecutar programa
-        run: python main.py
+      - name: running script  
+        run: python .github/script/main.py
+
+
+
+
+        
+      
+     
